@@ -1,0 +1,58 @@
+#grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#outPutNum {
+    grid-column: 2;
+    grid-row: 1;
+    margin: 200px 0px 0px 0px;
+    align-self: center;
+    justify-self: center;
+}
+
+#increaseButton {
+    grid-column: 1;
+    grid-row: 2;
+    align-self: center;
+    justify-self: flex-end;
+    background-color: lightGrey;
+    color: white;
+    border: 2px solid lightGrey;
+    border-radius: 25%;
+    font-size: 20px;
+}
+
+#decreaseButton {
+    grid-column: 3;
+    grid-row: 2;
+    align-self: center;
+    justify-self: flex-start;
+    background-color: lightGrey;
+    color: white;
+    border: 2px solid lightGrey;
+    border-radius: 25%;
+    font-size: 20px;
+    width: 7%;
+}
+
+#decreaseButton:hover {
+    background-color: white;
+    border: 2px solid lightGrey;
+    color: lightGrey;
+}
+
+#increaseButton:hover {
+    background-color: white;
+    border: 2px solid lightGrey;
+    color: lightGrey;
+}
+
+#inputValue {
+    grid-column: 2;
+    grid-row: 2;
+    align-self: center;
+    justify-self: center;
+    
+}
